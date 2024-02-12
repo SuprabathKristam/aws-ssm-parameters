@@ -4,12 +4,12 @@ variable "key_id" {
 
 variable "parameters" {
   default = {
-    dev.expense.rds.username = "admin1" # we named it like this to just match our context
+    "dev.expense.rds.username" = "admin1" # we named it like this to just match our context
   }
 }
 #Note : In organizations we never keep passwords in git repo's at any cost here in lab just to learn we are hard coding and declaring them in git repos
 variable "secrets" {
   default = {
-    dev.expense.rds.password = "ExpenseApp123" # we named it like this to just match our context
+    "dev.expense.rds.password" = "ExpenseApp123" # we named it like this to just match our context
   }
 }
