@@ -7,7 +7,6 @@ variable "parameters" {
     "dev.expense.rds.username" = "admin1" # we named it like this to just match our context
     "dev.expense.rds.endpoint" = "dev-expense-rds.c5osckq465hg.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend_endpoint" = "http://backend-dev.kdevopspractice.online/"
-
   }
 }
 #Note : In organizations we never keep passwords in git repo's at any cost here in lab just to learn we are hard coding and declaring them in git repos
