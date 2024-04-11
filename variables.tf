@@ -14,6 +14,6 @@ variable "secrets" {
   default = {
     "dev.expense.rds.password" = "ExpenseApp123" # we named it like this to just match our context
     "ssh.password" = "ExpenseApp123"
-    "ssh.username" = "DevOps321"
+    "ssh.username" = "centos"
   }
 }
